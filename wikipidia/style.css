@@ -1,0 +1,101 @@
+*{
+  font-family: sans-serif;
+  margin: 0 ;
+  padding: 0;
+  line-height: 1.35;
+  height: auto;
+}
+
+body{
+  background-color: #f8f9fa;
+  color: #202122;
+}
+
+h1, h2 ,h3, h4,h5, h6{
+  font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+  font-weight: 600;
+}
+
+.search-icon{
+  position: absolute;
+  top: 50%;
+  min-width: 20px;
+  min-height: 20px;
+  width: 1.4285714em;
+  height: 1.4285714em;
+  transition-property: color;
+  transition-duration: .1s;
+  left: 9px;
+  transform: translateY(-50%);
+}
+
+a{
+  color: rgb(21, 57, 128);;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active{
+  color: #fba700;
+}
+
+.heading{
+  border-bottom:  2px solid #b2b2b2;
+  width: 100%;
+}
+
+.heading span{
+  padding-top: .4rem;
+}
+
+.language{
+  padding-top: 1.2rem;
+}
+
+.text-blue{
+  color: rgb(21, 57, 128);
+}
+
+ .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: var(--bs-nav-tabs-link-active-color);
+   background-color: #f8f9fa; 
+   border:0px !important; 
+   font-size: 0.875rem; 
+   margin-bottom: 1px;
+   color: rgb(21, 57, 128);
+
+}
+.nav-tabs{
+  box-shadow: 0 2px #c8ccd1;
+}
+
+.article-tab-r{
+  margin: 0 0 0 auto;
+}
+
+.nav-link.active{
+  color: #202122 !important;
+  font-weight: 500;
+  border-bottom: 1px solid #000 !important;
+}
+
+
+.card p{
+  font-size: 12px;
+  padding: 0 .5rem;
+  margin-bottom: 0px;
+}
+.footer p{
+  font-size: 12px;
+}
+.footer-links .nav-item a{
+  font-size: 12px;
+  padding: 5px;
+}
+.color{
+  color: rgb(5, 104, 185)
+}
+ 
